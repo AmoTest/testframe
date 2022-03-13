@@ -22,8 +22,8 @@ class MailSend:
         att1['ContentDisposition'] = 'attachment, filename="report.html"'
         message.attach(att1)
 
-        sender = "2715756433@qq.com"
-        recievers = ["2715756433@qq.com", "1721210300@qq.com"]
+        sender = "123@qq.com"
+        recievers = ["123@qq.com", "abc@qq.com"]
 
         smtpObj = smtplib.SMTP()
         smtpObj.connect(hostname, '25')
@@ -33,6 +33,6 @@ class MailSend:
 if __name__ == "__main__":
 
     hostName = "smtp.qq.com"
-    mail_User = "2715756433@qq.com"
+    mail_User = "123@qq.com"
     mail_Pwd = ""
 
