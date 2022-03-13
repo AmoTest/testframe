@@ -1,0 +1,32 @@
+
+aTuple = (1, 2, 3)
+bTuple = (1, )
+cTuple = ()
+print(type(aTuple))
+print(f"aTuple is {id(aTuple)}")
+print(type(bTuple))
+print(f"bTuple is {id(bTuple)}")
+print(type(cTuple))
+print(f"cTuple is {id(cTuple)}")
+dTuple = aTuple + bTuple
+print(type(dTuple))
+print(f"dTuple is {id(dTuple)}")
+
+eTuple = (1, 2, 6, [1, 2, 3])
+print(eTuple)
+print(eTuple[2])
+print(eTuple[3])
+eTuple[3][2] = 5
+print(eTuple)
+print(eTuple[1:2])
+eTuple[3].append(2)
+print(eTuple)
+fTuple = (1, 3, 5, 7, 8, 7, 5, 6)
+print(sum(fTuple))
+print(3 in fTuple)
+print(fTuple.count(3))
+print(fTuple.index(7))
+print(len(fTuple))
+print(fTuple*2)
+print(fTuple)
+
